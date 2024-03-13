@@ -1,0 +1,40 @@
+.true {
+    background-color: black;
+
+    &__subtitle {
+        color: #FFF;
+        font-family: Arial;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 160px; 
+        letter-spacing: 4px;
+        padding-top: 125px;
+
+        @media screen and (max-width: 952px) {
+            font-size: 60px;
+            letter-spacing: 3px;
+            padding-top: 53px;    
+        }
+    }
+
+    &__description {
+        color: #FFF;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        padding-top: 70px;
+        padding-bottom: 81px;
+
+        @media screen and (max-width: 952px) {
+            padding-top: 28px;
+            padding-bottom: 53px;    
+        }
+}
+
+}
+
+

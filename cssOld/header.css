@@ -1,0 +1,35 @@
+.container {
+    margin: 0 auto;
+    max-width: 1400px;
+} 
+
+.header {
+    background-color: #EDEDEB;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.navigation__list {
+    display: flex;
+}
+
+.navigation__item-link {
+    padding: 11px 32px;
+    color: #292929;
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-decoration: none;
+}

@@ -1,0 +1,47 @@
+.footer {
+
+    .navigation {
+
+        margin-bottom: 44px;
+        margin-top: 46px;
+
+        &__list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        &__item-link {
+            font-family: Roboto;
+            color: #292929;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-decoration: none;
+            transition: 0.3s;
+        }
+
+        &__item-link:hover {
+            color: #FF8340;
+            transition: 0.3s;
+        }
+        
+    }
+
+    &__date {
+        color: #292929;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-align: center;    
+    }
+}
+
+.margin {
+    margin-bottom: 23px;
+}

@@ -1,0 +1,87 @@
+.system {
+  margin-bottom: 140px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr) 2fr;
+  grid-template-areas: "descr descr descr img" "nutrition mode programm img";
+}
+@media screen and (max-width: 1400px) {
+  .system {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "descr img" "nutrition mode" "programm programm";
+  }
+}
+.system__description {
+  grid-area: descr;
+  align-self: end;
+  justify-self: end;
+  padding: 76px 0 40px 0;
+}
+.system__description-subtitle {
+  color: #292929;
+  font-family: Arial;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 4px;
+  line-height: 160px;
+  margin-bottom: 34px;
+}
+@media screen and (max-width: 952px) {
+  .system__description-subtitle {
+    font-size: 60px;
+  }
+}
+.system__description-content {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  max-width: 624px;
+  margin-bottom: 41px;
+}
+.system__preview {
+  grid-area: img;
+  width: 50vw;
+}
+.system__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 30px 0 30px;
+}
+.system__item_nutrition {
+  grid-area: nutrition;
+}
+.system__item_mode {
+  grid-area: mode;
+}
+.system__item_programm {
+  grid-area: programm;
+}
+.system__item-icon {
+  margin-bottom: 70px;
+}
+.system__item-subtitle {
+  color: #292929;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  letter-spacing: 1px;
+  margin-bottom: 52px;
+}
+.system__item-description {
+  color: #000;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}/*# sourceMappingURL=system.css.map */

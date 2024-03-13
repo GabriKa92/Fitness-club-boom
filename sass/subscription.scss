@@ -1,0 +1,111 @@
+.subscription {
+    margin-bottom: 155px;
+
+
+    &__subtitle {
+        color: #292929;
+        font-family: Arial;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 90px;
+        text-align: center;
+        margin-bottom: 124px;
+
+        @media screen and (max-width: 952px) {
+            font-size: 60px;
+            margin-bottom: 53px;
+        }
+    } 
+
+}
+
+.blocks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;    
+}
+
+.block {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 310px;
+    height: 624px;
+    border: 6px solid rgb(0, 0, 0);
+    transition: transform 0.3s;
+&:hover {
+    border: 6px solid #FF8340;
+    transform: scale(1.1);
+    cursor: pointer;
+    .block__circle {
+        border-color: #FF8340;
+    }
+    .block__circle__number {
+        color: #FF8340;
+    }
+}    
+
+    &__circle {
+        margin-top: 69px;
+        margin-bottom: 24px;
+        width: 76px;
+        height: 76px;
+        border: 5px solid rgb(0, 0, 0);
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &__number {
+            font-family: Arial, sans-serif;
+            font-size: 40px;
+            font-weight: bold;
+            }    
+        }
+
+    &__month { 
+        color: #292929;
+        font-family: Arial;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        letter-spacing: 1px;
+        margin-bottom: 74px;
+    }
+    
+    &__text {
+        width: 234px;
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 36px;
+    }
+
+    &__prise {
+        margin-bottom: 20px;
+    }
+
+    &__button {
+        border: none;
+        background-color: transparent;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        padding-top: 11px;
+        padding-bottom: 11px;
+    }
+
+    }
+
+    

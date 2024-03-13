@@ -1,0 +1,38 @@
+.footer .navigation {
+  margin-bottom: 44px;
+  margin-top: 46px;
+}
+.footer .navigation__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.footer .navigation__item-link {
+  font-family: Roboto;
+  color: #292929;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.footer .navigation__item-link:hover {
+  color: #FF8340;
+  transition: 0.3s;
+}
+.footer__date {
+  color: #292929;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+.margin {
+  margin-bottom: 23px;
+}/*# sourceMappingURL=footer.css.map */

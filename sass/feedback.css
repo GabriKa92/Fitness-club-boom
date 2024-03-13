@@ -1,0 +1,132 @@
+.feedback {
+  background-color: #FF8340;
+  padding: 40px 0 65px 0;
+}
+.feedback__subtitle {
+  text-align: center;
+  color: #292929;
+  font-family: Arial;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 35px;
+}
+@media screen and (max-width: 952px) {
+  .feedback__subtitle {
+    font-size: 32px;
+  }
+}
+.feedback__line {
+  height: 6px;
+  width: 64px;
+  background-color: #292929;
+  border: none;
+  margin-bottom: 50px;
+}
+.feedback__description {
+  color: #000;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px 0;
+}
+.form__select, .form__field {
+  width: 49%;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 34px;
+}
+.form__field::-moz-placeholder {
+  color: #B0B0B0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__field::placeholder {
+  color: #B0B0B0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__select {
+  background-color: #292929;
+  color: white;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__select-item {
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__massage {
+  width: 100%;
+  height: 198px;
+  font-size: 20px;
+  padding-left: 34px;
+  resize: none;
+  padding: 18px 0 0 34px;
+}
+.form__massage::-moz-placeholder {
+  color: #B0B0B0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__massage::placeholder {
+  color: #B0B0B0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.form__submit {
+  background: none;
+  border: none;
+  outline: none;
+  margin-left: auto;
+  cursor: pointer;
+  padding: 11px 0;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2px;
+  border: 1px solid transparent;
+  transition: 0.3s;
+}
+.form__submit:hover {
+  border-color: #fff;
+  color: #fff;
+  transition: 0.3s;
+}/*# sourceMappingURL=feedback.css.map */

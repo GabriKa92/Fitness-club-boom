@@ -1,0 +1,126 @@
+.feedback {
+    background-color: #FF8340;
+    padding: 40px 0 65px 0;
+
+    &__subtitle {
+        text-align: center;
+        color: #292929;
+        font-family: Arial;
+        font-size: 45px;
+        font-style: normal;
+        font-weight: 900;
+        letter-spacing: 2px;
+        margin-bottom: 35px;
+
+        @media screen and (max-width: 952px) {
+            font-size: 32px;
+        }
+    }
+
+    &__line {
+        height: 6px;
+        width: 64px;
+        background-color: #292929;
+        border: none; 
+        margin-bottom: 50px;   
+    }
+
+    &__description {
+        color: #000;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+    }
+
+}
+
+.form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px 0;   
+
+    &__select, &__field {
+        width: 49%;
+        height: 50px;
+        font-size: 20px;
+        padding-left: 34px;
+    }
+
+    &__field {
+        &::placeholder {
+            color: #B0B0B0;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+    }
+
+    &__select {
+        background-color: #292929;
+        color: white;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+
+        &-item {
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+    }
+
+    &__massage {
+        width: 100%;
+        height: 198px;
+        font-size: 20px;
+        padding-left: 34px;
+        resize: none;
+        padding: 18px 0 0 34px;
+        &::placeholder {
+            color: #B0B0B0;
+            font-family: Roboto;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+    }
+
+    &__submit {
+        background: none;
+        border: none;
+        outline: none;
+        margin-left: auto;
+        cursor: pointer;
+        padding: 11px 0;
+        font-family: Roboto;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 2px;
+        border: 1px solid transparent;
+        transition: 0.3s;
+    }
+
+    &__submit:hover {
+        border-color: #fff;
+        color: #fff;
+        transition: 0.3s;        
+    }
+}
